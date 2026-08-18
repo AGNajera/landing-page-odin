@@ -4,13 +4,13 @@
   font-family: Roboto;
 }
 
-.header-page {
+.header-footer-page {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
   background-color: #1f2937;
-  padding: 0.5rem;
+  padding: 1.4rem;
 
   h1 {
     font-size: 24px;
@@ -25,6 +25,10 @@
       text-decoration: none;
       color: #e5e7eb;
     }
+  }
+
+  p {
+    color: #f9faf8;
   }
 }
 
@@ -108,6 +112,38 @@
       font-weight: 300;
       display: flex;
       align-self: flex-end;
+    }
+  }
+
+  .main-page-cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 2rem;
+    margin: 6rem;
+    border-radius: 6px;
+    gap: 2rem;
+
+    .main-page-cta-text {
+      display: flex;
+      flex-flow: column nowrap;
+
+      h4 {
+        color: #f9faf8;
+      }
+
+      p {
+        color: #e5e7eb;
+      }
+    }
+    button {
+      background-color: #3882f6;
+      color: #f9faf8;
+      border-radius: 6px;
+      width: 6rem;
+      height: 1.6rem;
+      border: 1px solid;
     }
   }
 }
